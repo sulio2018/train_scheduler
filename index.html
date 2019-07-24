@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Train Scheduler</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-4">The Train Wreck</h1><br>
+                <p class="lead">Get where you need to go before it's too late.</p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+
+            <div class="col-lg-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Current Train Schedule</h5>
+                    </div>
+
+                    <div class="card-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Train Name</th>
+                                    <th scope="col">Destination</th>
+                                    <th scope="col">Frequency (min)</th>
+                                    <th scope="col">Next Arrival</th>
+                                    <th scope="col">Minutes Away</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!--Additional rows will go here.-->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="row">
+
+            <div class="col-lg-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Add Train</h5>
+                    </div>
+
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="trainName">
+                                    <h6>Train Name</h6>
+                                </label>
+                                <input type="text" class="form-control" id="trainName">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="destination">
+                                    <h6>Destination</h6>
+                                </label>
+                                <input type="text" class="form-control" id="destination">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="trainTime">
+                                    <h6>First Train Time (HH:mm - military time)</h6>
+                                </label>
+                                <input type="text" class="form-control" id="firstTrainTime">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="frequency">
+                                    <h6>Frequency (min)</h6>
+                                </label>
+                                <input type="text" class="form-control" id="frequency">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+    <script type="text/javascript" src="javascript/train.js"></script>
+
+
+</body>
+
+</html>

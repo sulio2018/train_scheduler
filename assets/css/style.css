@@ -1,0 +1,12 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+body {
+    margin: 10px 50px 10px 50px;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
