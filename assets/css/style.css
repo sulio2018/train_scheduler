@@ -4,9 +4,64 @@
 
 body {
     margin: 10px 50px 10px 50px;
-}
+    background-color: ivory;
+ }
+
+/* Jumbotron styling */
 
 .jumbotron {
+    background: url(../images/train.jpg);
     text-align: center;
-}
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-shadow: 2px 2px #000;
+  }
+
+  .display-4 {
+      font-weight: bold;
+      font-size: 50px;
+  }
+  
+  .lead {
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .bg-cover {
+    background-size: cover;
+    color: white;
+    background-position: center center;
+    position: relative;
+    z-index: -2;
+  }
+  
+  .overlay {
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  /* Table/form styling */
+
+  .card-title {
+    margin-top: 10px;  
+  }
+
+  .card-header, .btn {
+    color: white;
+    background-color: rgb(31, 128, 238);
+    font-weight: bold;
+  }
+
+  .card {
+      border-color: rgb(31, 128, 238);
+  }
+
+
 
