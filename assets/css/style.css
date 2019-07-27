@@ -19,12 +19,12 @@ body {
 
   .display-4 {
       font-weight: bold;
-      font-size: 50px;
+      font-size: 70px;
   }
   
   .lead {
     color: orange;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
   }
   
@@ -62,6 +62,10 @@ body {
   .card {
       border-color: rgb(31, 128, 238);
   }
+
+ .table {
+     text-align: center;
+ }
 
 
 

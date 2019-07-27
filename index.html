@@ -22,7 +22,7 @@
             <div class="overlay"></div>
             <div class="container">
                 <h1 class="display-4">Train Scheduler</h1><br>
-                <p class="lead">Get where you need to go before it's too late.</p>
+                <p class="lead">Don't lose anymore time</p>
             </div>
         </div>
 
@@ -30,7 +30,7 @@
 
         <div class="row">
 
-            <div class="col-lg-12">
+            <div class="col-sm-12">
 
                 <div class="card">
                     <div class="card-header">
@@ -48,7 +48,7 @@
                                     <th scope="col">Minutes Away</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody id="add-row">
                                 <!--Additional rows will go here.-->
                             </tbody>
                         </table>
@@ -62,7 +62,7 @@
 
         <div class="row">
 
-            <div class="col-lg-12">
+            <div class="col-sm-12">
 
                 <div class="card">
                     <div class="card-header">
@@ -70,7 +70,7 @@
                     </div>
 
                     <div class="card-body">
-                        <form>
+                        <form id="myForm">
                             <div class="form-group">
                                 <label for="trainName">
                                     <h6>Train Name</h6>
@@ -99,7 +99,7 @@
                                 <input type="text" class="form-control" id="frequency">
                             </div>
 
-                            <button type="submit" class="btn">Submit</button>
+                            <button type="submit" id="submit" class="btn">Submit</button>
                         </form>
 
                     </div>
@@ -119,7 +119,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
     <script type="text/javascript" src="javascript/train.js"></script>
 
