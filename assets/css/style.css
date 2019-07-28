@@ -69,17 +69,13 @@
 
  /* Media query */
 
- @media (max-width: 515px){
-  .display-4 {
-    font-size: 50px;
+ @media only screen and (max-width: 665px){
+  .jb-container {
+    text-align: center;
   }
 
-  .lead {
-    font-size: 35px;
-  }
-
-  .container {
-    width: 515px;
+  .main-container {
+    width: 665px;
   }
 }
 
