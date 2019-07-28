@@ -2,14 +2,14 @@
     box-sizing: content-box;
   }
 
-body {
+  body {
     margin: 10px 50px 10px 50px;
     background-color: ivory;
  }
 
-/* Jumbotron styling */
+  /* Jumbotron styling */
 
-.jumbotron {
+  .jumbotron {
     background: url(../images/train.jpg);
     text-align: center;
     padding-top: 10rem;
@@ -67,5 +67,20 @@ body {
      text-align: center;
  }
 
+ /* Media query */
+
+ @media (max-width: 515px){
+  .display-4 {
+    font-size: 50px;
+  }
+
+  .lead {
+    font-size: 35px;
+  }
+
+  .container {
+    width: 515px;
+  }
+}
 
 
